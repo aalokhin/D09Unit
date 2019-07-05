@@ -13,6 +13,9 @@
 		EF37995C22CF9139003CF02A /* D09.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF37995A22CF9139003CF02A /* D09.xcdatamodeld */; };
 		EF37995E22CF9139003CF02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF37995D22CF9139003CF02A /* Assets.xcassets */; };
 		EF37996122CF9139003CF02A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF37995F22CF9139003CF02A /* LaunchScreen.storyboard */; };
+		EF37996922CF94F5003CF02A /* DiaryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF37996822CF94F5003CF02A /* DiaryBoard.storyboard */; };
+		EF37996B22CF9532003CF02A /* DiaryBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37996A22CF9532003CF02A /* DiaryBoardController.swift */; };
+		EF37996D22CFA085003CF02A /* ArticleClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37996C22CFA085003CF02A /* ArticleClass2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EF37995D22CF9139003CF02A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF37996022CF9139003CF02A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF37996222CF9139003CF02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF37996822CF94F5003CF02A /* DiaryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiaryBoard.storyboard; sourceTree = "<group>"; };
+		EF37996A22CF9532003CF02A /* DiaryBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryBoardController.swift; sourceTree = "<group>"; };
+		EF37996C22CFA085003CF02A /* ArticleClass2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleClass2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				EF37995322CF9139003CF02A /* AppDelegate.swift */,
 				EF37995522CF9139003CF02A /* ViewController.swift */,
+				EF37996A22CF9532003CF02A /* DiaryBoardController.swift */,
 				EF37995722CF9139003CF02A /* Main.storyboard */,
+				EF37996822CF94F5003CF02A /* DiaryBoard.storyboard */,
 				EF37995D22CF9139003CF02A /* Assets.xcassets */,
 				EF37995F22CF9139003CF02A /* LaunchScreen.storyboard */,
 				EF37996222CF9139003CF02A /* Info.plist */,
 				EF37995A22CF9139003CF02A /* D09.xcdatamodeld */,
+				EF37996C22CFA085003CF02A /* ArticleClass2.swift */,
 			);
 			path = D09;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF37996122CF9139003CF02A /* LaunchScreen.storyboard in Resources */,
+				EF37996922CF94F5003CF02A /* DiaryBoard.storyboard in Resources */,
 				EF37995E22CF9139003CF02A /* Assets.xcassets in Resources */,
 				EF37995922CF9139003CF02A /* Main.storyboard in Resources */,
 			);
@@ -141,6 +151,8 @@
 			files = (
 				EF37995622CF9139003CF02A /* ViewController.swift in Sources */,
 				EF37995422CF9139003CF02A /* AppDelegate.swift in Sources */,
+				EF37996B22CF9532003CF02A /* DiaryBoardController.swift in Sources */,
+				EF37996D22CFA085003CF02A /* ArticleClass2.swift in Sources */,
 				EF37995C22CF9139003CF02A /* D09.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
